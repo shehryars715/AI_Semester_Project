@@ -6,7 +6,7 @@ from unittest.mock import create_autospec  # patch
 
 from flask import Flask
 
-from alphaconnect4.agents.base_agent import BaseAgent
+from Connect4Helpers.agents.base_agent import BaseAgent
 from api.run_flask import FlaskConfig, RunFlaskCommand
 
 

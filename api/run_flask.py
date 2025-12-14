@@ -8,8 +8,8 @@ import numpy as np
 from flask import Flask, jsonify, request
 from flask_cors import CORS
 
-from alphaconnect4.agents.base_agent import BaseAgent
-from alphaconnect4.constants.constants import COLUMN_COUNT, ROW_COUNT
+from Connect4Helpers.agents.base_agent import BaseAgent
+from Connect4Helpers.constants.constants import COLUMN_COUNT, ROW_COUNT
 
 
 @dataclass
@@ -70,7 +70,7 @@ class RunFlaskCommand:
 
 
 if __name__ == "__main__":
-    from alphaconnect4.agents.mcts_agent import MCTSAgent
+    from Connect4Helpers.agents.mcts_agent import MCTSAgent
 
     command = RunFlaskCommand(FlaskConfig(), MCTSAgent())
     command.run()

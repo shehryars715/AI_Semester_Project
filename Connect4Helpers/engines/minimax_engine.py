@@ -1,8 +1,8 @@
 import math
 import random
 
-from alphaconnect4.constants.constants import AI_PIECE, COLUMN_COUNT, EMPTY, PLAYER_PIECE, ROW_COUNT, WINDOW_LENGTH
-from alphaconnect4.interfaces.board import Board
+from Connect4Helpers.constants.constants import AI_PIECE, COLUMN_COUNT, EMPTY, PLAYER_PIECE, ROW_COUNT, WINDOW_LENGTH
+from Connect4Helpers.interfaces.board import Board
 
 
 class MinimaxEngine(Board):

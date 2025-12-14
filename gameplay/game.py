@@ -5,9 +5,9 @@ import sys
 
 import pygame
 
-from alphaconnect4.agents.base_agent import BaseAgent
-from alphaconnect4.constants.constants import BLACK, BLUE, RADIUS, RED, SQUARESIZE, YELLOW
-from alphaconnect4.interfaces.board import Board
+from Connect4Helpers.agents.base_agent import BaseAgent
+from Connect4Helpers.constants.constants import BLACK, BLUE, RADIUS, RED, SQUARESIZE, YELLOW
+from Connect4Helpers.interfaces.board import Board
 from gameplay.visual_engine import VisualEngine
 
 

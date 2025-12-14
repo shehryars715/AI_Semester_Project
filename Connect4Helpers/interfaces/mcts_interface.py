@@ -1,8 +1,8 @@
 import random
 
-from alphaconnect4.constants.constants import AI_PIECE, PLAYER_PIECE
-from alphaconnect4.engines.mcts import Node
-from alphaconnect4.interfaces.board import Board
+from Connect4Helpers.constants.constants import AI_PIECE, PLAYER_PIECE
+from Connect4Helpers.engines.mcts import Node
+from Connect4Helpers.interfaces.board import Board
 
 
 class Connect4Tree(Board, Node):

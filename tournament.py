@@ -2,9 +2,9 @@ from dataclasses import dataclass
 from random import sample
 from typing import Optional
 
-from alphaconnect4.agents.mcts_agent import MCTSAgent
-from alphaconnect4.agents.minimax_agent import MinimaxAgent
-from alphaconnect4.agents.neural_mcts_agent import NeuralMCTSAgent
+from Connect4Helpers.agents.mcts_agent import MCTSAgent
+from Connect4Helpers.agents.minimax_agent import MinimaxAgent
+from Connect4Helpers.agents.neural_mcts_agent import NeuralMCTSAgent
 from gameplay.game import Game
 
 # Maximum number of rollouts per turn, used for MCTSAgent and NeuralMCTSAgent.

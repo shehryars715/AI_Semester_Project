@@ -2,7 +2,7 @@ import sys
 
 from tqdm import tqdm
 
-from alphaconnect4.agents import MCTSAgent
+from Connect4Helpers.agents import MCTSAgent
 from gameplay.game import Game
 
 # Parallelize to generate samples in parallel

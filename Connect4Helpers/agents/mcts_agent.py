@@ -7,9 +7,9 @@ from typing import Optional
 import numpy as np
 from tqdm import tqdm
 
-from alphaconnect4.agents.base_agent import BaseAgent
-from alphaconnect4.engines.mcts import MCTS
-from alphaconnect4.interfaces.mcts_interface import Connect4Tree
+from Connect4Helpers.agents.base_agent import BaseAgent
+from Connect4Helpers.engines.mcts import MCTS
+from Connect4Helpers.interfaces.mcts_interface import Connect4Tree
 
 
 class MCTSAgent(BaseAgent):

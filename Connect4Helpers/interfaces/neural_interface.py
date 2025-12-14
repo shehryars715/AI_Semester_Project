@@ -2,9 +2,9 @@
 
 import torch
 
-from alphaconnect4.constants.constants import COLUMN_COUNT, ROW_COUNT
-from alphaconnect4.interfaces.naive_nn import NaiveNet
-from alphaconnect4.interfaces.transformer_nn import ConvTransformerNet
+from Connect4Helpers.constants.constants import COLUMN_COUNT, ROW_COUNT
+from Connect4Helpers.interfaces.naive_nn import NaiveNet
+from Connect4Helpers.interfaces.transformer_nn import ConvTransformerNet
 
 
 class NeuralInterface:

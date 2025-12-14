@@ -1,6 +1,6 @@
 import pygame
 
-from alphaconnect4.constants.constants import (
+from Connect4Helpers.constants.constants import (
     BLACK,
     BLUE,
     COLUMN_COUNT,

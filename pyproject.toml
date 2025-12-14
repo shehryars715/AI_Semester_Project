@@ -6,12 +6,12 @@ build-backend = "hatchling.build"
 source = "vcs"
 
 [tool.hatch.build.targets.wheel]
-include = ["alphaconnect4"]
+include = ["Connect4Helpers"]
 
 [project]
-name = "alphaconnect4"
+name = "Connect4Helpers"
 dynamic = ["version"]
-description = "The code used to train and run AlphaConnect4."
+description = "The code used to train and run Connect4Helpers."
 authors = [
     { name = "Manuel Faysse", email = "manuel.fay@gmail.com" },
 ]
@@ -36,7 +36,7 @@ dependencies = [
 
 
 [project.urls]
-homepage = "https://github.com/ManuelFay/AlphaConnect4"
+homepage = "https://github.com/ManuelFay/Connect4Helpers"
 
 [tool.pytest.ini_options]
 filterwarnings = ["ignore::Warning"]

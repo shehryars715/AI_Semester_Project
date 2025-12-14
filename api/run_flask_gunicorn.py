@@ -8,7 +8,7 @@ def create_app() -> Flask:
     """Create the Flask app object and return it (without starting the app).
     Entry point for gunicorn
     """
-    from alphaconnect4.agents.mcts_agent import MCTSAgent
+    from Connect4Helpers.agents.mcts_agent import MCTSAgent
 
     command = RunFlaskCommand(FlaskConfig(), MCTSAgent())
 

@@ -1,6 +1,6 @@
 import sys
 
-from alphaconnect4.agents import MCTSAgent, MinimaxAgent, NeuralMCTSAgent
+from Connect4Helpers.agents import MCTSAgent, MinimaxAgent, NeuralMCTSAgent
 from gameplay.game import Game
 
 # Setup players (None is a human player, MCTSAgent, MinimaxAgent)

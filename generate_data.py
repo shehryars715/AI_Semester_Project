@@ -1,9 +1,9 @@
 import numpy as np
 from tqdm import tqdm
-from alphaconnect4.agents.mcts_agent import MCTSAgent
-from alphaconnect4.interfaces.board import Board
-from alphaconnect4.constants.constants import COLUMN_COUNT
-from alphaconnect4.interfaces.mcts_interface import Connect4Tree
+from Connect4Helpers.agents.mcts_agent import MCTSAgent
+from Connect4Helpers.interfaces.board import Board
+from Connect4Helpers.constants.constants import COLUMN_COUNT
+from Connect4Helpers.interfaces.mcts_interface import Connect4Tree
 import time
 
 def generate_training_data(num_games=1000, num_rollouts=100):

@@ -1,8 +1,8 @@
 import math
 from collections import defaultdict
 
-from alphaconnect4.engines.mcts import MCTS
-from alphaconnect4.interfaces.neural_interface import NeuralInterface
+from Connect4Helpers.engines.mcts import MCTS
+from Connect4Helpers.interfaces.neural_interface import NeuralInterface
 
 
 class NeuralMCTS(MCTS):
