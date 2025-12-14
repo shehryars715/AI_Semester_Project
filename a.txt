@@ -1,0 +1,2 @@
+$env:PYTHONPATH = "$PWD"
+python api/run_flask.py

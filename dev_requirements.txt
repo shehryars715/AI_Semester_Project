@@ -1,0 +1,9 @@
+# Dev requirements
+
+-e .
+
+pygame
+tensorboard
+pylint
+flask
+flask_cors
