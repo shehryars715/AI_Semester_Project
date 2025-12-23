@@ -6,7 +6,7 @@ from Connect4Helpers.agents.mcts_agent import MCTSAgent
 # Create the command
 command = RunFlaskCommand(
     FlaskConfig(),
-    MCTSAgent()
+    MinimaxAgent(max_depth=3, is_agent1=False)
 )
 
 # IMPORTANT:
